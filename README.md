@@ -1,11 +1,7 @@
 # Gerych's starter page
 
 <p align="center">
-  <img src="https://i.imgur.com/vjfMONS.png"/>
-</p>
-
-<p align="center">
-  <img src="https://i.imgur.com/IrDF4LX.png"/>
+  <img src="./src/img/main.png"/>
 </p>
 
 ## Keybindings
