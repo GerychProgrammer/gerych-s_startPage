@@ -3,7 +3,7 @@ let saved_config = JSON.parse(localStorage.getItem("CONFIG"));
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: 'Russia, Saint Petersburg',
+    location: 'Saint Petersburg',
     scale: "C",
   },
   clock: {
@@ -23,7 +23,7 @@ const default_config = {
   },
   disabled: [],
   localIcons: false,
-  fastlink: "https://ya.ru/?npr=1&utm_referrer=https%3A%2F%2Fyandex.ru%2F",
+  fastlink: "",
   openLastVisitedTab: true,
   tabs: [
     {
