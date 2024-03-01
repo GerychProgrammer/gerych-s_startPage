@@ -178,6 +178,16 @@ class Statusbar extends Component {
           border-radius: 5px 15px 15px 5px;
       }
 
+      a:link {
+        text-decoration: inherit;
+        color: inherit;
+      }
+    
+      a:visited {
+        text-decoration: inherit;
+        color: inherit;
+      }
+
       .add-tab:hover {
           filter: brightness(1.2);
       }
@@ -194,11 +204,10 @@ class Statusbar extends Component {
         <div id="tabs">
             <cols>
                 <button class="+ add-tab">
-                  <span class="material-icons add-tab-icon">add</span>
+                  <a class="material-icons add-tab-icon" href="https://ya.ru/?npr=1&utm_referrer=https%3A%2F%2Fyandex.ru%2F" target="_blank">add</a>
                 </button>
                 <ul class="- indicator"></ul>
                 <div class="+ widgets col-end">
-                    <crypto-rate class="+ widget"></crypto-rate>
                     <current-time class="+ widget"></current-time>
                     <weather-forecast class="+ widget weather"></weather-forecast>
                 </div>

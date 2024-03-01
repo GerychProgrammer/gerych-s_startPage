@@ -23,7 +23,7 @@ const default_config = {
   },
   disabled: [],
   localIcons: false,
-  fastlink: "",
+  fastlink: "https://ya.ru/?npr=1&utm_referrer=https%3A%2F%2Fyandex.ru%2F",
   openLastVisitedTab: true,
   tabs: [
     {
@@ -41,7 +41,7 @@ const default_config = {
           {
             name: "Vkontakte",
             url: "https://vk.com/",
-            icon: "brand-vk-filled",
+            icon: "brand-vk",
             icon_color: "#7daea3",
           },
           {
@@ -71,22 +71,34 @@ const default_config = {
             url: "https://monkeytype.com/",
             icon: "keyboard",
             icon_color: "#e78a4e",
-          },
-          {
-            name: "tetris",
-            url: "https://tetris.com/",
-            icon: "brand-apple-arcade",
-            icon_color: "#ea6962",
-          },
+          }
         ],
       }, {
-        name: "Video",
+        name: "Some to watch",
         links: [
           {
-            name: "КиноПоиск",
+            name: "KinoPoisk",
             url: "https://hd.kinopoisk.ru/",
             icon: "device-tv",
             icon_color: "#7daea3",
+          },
+          {
+            name: "Shikimori",
+            url: "https://shikimori.one/",
+            icon: "planet",
+            icon_color: "#907dae",
+          },
+          {
+            name: "AniLibria",
+            url: "https://vk.anilib.top/",
+            icon: "brand-funimation",
+            icon_color: "#aea97d",
+          },
+          {
+            name: "AnimeGO",
+            url: "https://animego.org/",
+            icon: "basket-exclamation",
+            icon_color: "#9aae7d",
           },
         ],
       }],
@@ -165,7 +177,7 @@ const default_config = {
               name: "gmail",
               url: "https://mail.google.com/mail/u/0/",
               icon: "brand-gmail",
-              icon_color: "#ea6962",
+              icon_color: "#fff",
             },
             {
               name: "yandex",
@@ -177,7 +189,7 @@ const default_config = {
               name: "mailRu",
               url: "https://mail.ru/",
               icon: "brand-gmail",
-              icon_color: "#ea6962",
+              icon_color: "#6267ea",
             },
           ],
         },
@@ -194,7 +206,7 @@ const default_config = {
               name: "YaDisk",
               url: "https://360.yandex.ru/disk/",
               icon: "box-seam",
-              icon_color: "#7daea3",
+              icon_color: "#ea6962",
             }
           ],
         },
